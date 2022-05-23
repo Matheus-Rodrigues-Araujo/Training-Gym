@@ -12,20 +12,24 @@
   --fontStyle: Poppins, sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   width: 100%;
   background-color: rgb(0, 0, 0);
+  position: relative;
 }
 
 header {
-  /* font-size: 2.2em; */
   background-color: white;
-  /* background-image: linear-gradient(270deg, white, gray); */
+  font-family: Poppins, sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 .navigation {
   display: flex;
@@ -37,6 +41,7 @@ header {
 
 header > div > a {
   color: #000;
+  font-size: 2em;
   /* font-size: 25px; */
   font-weight: 700;
 }
@@ -45,6 +50,7 @@ header div > a > em {
   background-color: orangered;
   border: none;
   border-radius: 3px;
+  font-style: normal;
   padding-inline: 5px;
 }
 
@@ -54,16 +60,41 @@ header div > a > em {
   /* display: block; */
   margin-right: 0.8rem;
 }
+/* 
+.navigation ul li:hover > a::after {
+  content: '';
+  width: 12%;
+  display: block;
+  height: 1px;
+  transition: ease-in-out 1s margin-right;
+  background-color: orangered;
+  position: absolute;
+ 
+} */
 
-.navigation ul li:hover > a {
-  transition: ease-in-out 400ms;
-  color: orangered;
-  border-top: 2px solid rgb(34, 0, 255);
-  border-bottom: 2px solid rgb(34, 0, 255);
+.navigation ul li:last-child a{
+  background-color: orangered;
+  border: none;
+  border-radius: .5em;
+  color: white;
+  padding: .5em;
 }
+
+
+.navigation ul li:last-child a:hover{
+  /* color: rgb(225, 255, 57); */
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  border-radius: .0em .5em .0em .5em;
+}
+
 .navigation ul li a {
   color: black;
   font-weight: 600;
+}
+ 
+.navigation ul li a:hover {
+  color: orangered
 }
 
 .menu-icon {
@@ -71,11 +102,13 @@ header div > a > em {
   display: none;
   position: relative;
 }
+
 .menu-divs {
   cursor: pointer;
   display: flex;
+  padding: 2px 0px 8px 0px;
   flex-flow: column wrap;
-  width: 30px;
+  width: 40px;
   /* align-items: center; */
   justify-content: center;
   height: 40px;
@@ -84,7 +117,7 @@ header div > a > em {
 
 .menu-divs div {
   display: flex;
-  flex: 0 5px;
+  flex: 0 6px;
   background-color: rgb(0, 0, 0);
   margin: 0px 1px;
   border-radius: 1em;
@@ -155,15 +188,18 @@ header div > a > em {
 
 /* DIV MAIN-BANNER====================================== */
 .main-banner {
-  position: relative;
+  /* position: relative; */
   display: flex;
+  /* float: left; */
   justify-content: center;
   align-items: flex-start;
   /* font-size: var(--text_size); */
+  width: 100%;
 }
+
 .header-text {
   text-transform: uppercase;
-  font-family: 'Poppins, sans serif';
+  font-family: Poppins, sans-serif;
   color: white;
   text-align: center;
   position: absolute;
@@ -174,16 +210,24 @@ header div > a > em {
   margin-top: 12%;
   font-weight: 900;
   justify-content: center;
+  letter-spacing: 0.1em;
 }
 
 .header-text h6 {
   /* font-size: 2.7rem; */
   margin-bottom: 1.1em;
+  font-size: 1.6em;
   font-weight: bolder;
 }
+
+.header-text h2 {
+  /* letter-spacing: .1em; */
+  font-size: 6em;
+}
+
 .member-link {
   margin-top: 1em;
-  /* font-size: 0.3em; */
+  font-size: calc(1em - 1px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,9 +239,18 @@ header div > a > em {
   color: white;
   border-radius: 1;
   background-color: orangered;
-  padding: 1.5rem;
+  padding: 0.5em;
 }
 
+.member-link a:hover {
+  transition: ease-in .3s;
+  background-image: radial-gradient(
+    circle at right,
+    orangered,
+    rgb(5, 28, 236)
+  );
+  transform: rotate(-10deg);
+}
 .section {
   background-color: white;
   /* font-size: 3.5rem; */
@@ -205,15 +258,18 @@ header div > a > em {
 }
 
 .container {
+  padding: 0px;
   text-transform: uppercase;
   color: rgb(23, 35, 36);
   font-family: var(--fontStyle);
+  font-size: 13px;
   /* font-size: calc(var(--text_size) - 4.8rem); */
   /* font-style: normal; */
 }
 
 .container h2 {
-  padding-top: 32rem;
+  padding-top: 6em;
+  font-size: 2em;
 }
 .container h2 > em {
   color: orangered;
@@ -221,30 +277,131 @@ header div > a > em {
 }
 
 .container > p {
-  /* font-size: 1.9rem; */
+  color: #7a7a7a;
+  /* font-size: calc(1em - 1.2px); */
+  font-size: calc(1em);
   color: rgb(53, 64, 65);
-  padding: 0rem 28em;
+  padding: 0rem 20em;
+  line-height: 25px;
   margin-bottom: 10em;
 }
 
-.container img {
+.container > img {
   transform: rotate(90deg);
 }
 
-.courses {
+
+.courses-list{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* width: 100%; */
+  align-items: center;
+  /* margin-left: 5px; */
+  width: 100%;
   gap: 1em;
 }
 
-.course .content{
-  display: flex;
-  flex-flow: column wrap;
+.course-item{
+  margin-bottom: 5em;
 }
 
-@media screen and (min-width: 280px) and (max-width: 670px) {
+.course{
+  /* background-color: #7a7a7a; */
+  display: flex;
+  flex-flow: row wrap;
+  border: none;
+  border-radius: 1em;
+}
+
+
+.course .content {
+  /* display: flex; */
+  /* position: relative; */
+  /* flex: 1; */
+  /* padding: 8px; */
+  /* height: 107px; */
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+}
+
+.course .content .png-image{
+  margin-right: 1em;
+  float: left;
+  height: 100%;
+  flex: 1;
+  padding: 20px 28px;
+  /* height: 100%; */
+  background-color: orangered;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: .3em;
+}
+.course .content img{
+  /* padding: 1px; */
+  /* background-color: rgb(255, 255, 255); */
+  transform: rotate(-270deg);
+  filter: brightness(5);
+}
+
+
+
+.content .description{
+  display: flex;
+  flex-flow: column wrap;
+  /* height: 100%; */
+  /* height: 100%; */
+  padding: 0;
+  text-align: left;
+  gap: 1rem;
+  justify-content: space-around;
+  /* align-items: flex-end; */
+  /* background-color: #7a7a7a; */
+  /* padding: 0px 2em 0em 2em; */
+  /* width: 50px; */
+}
+
+
+
+.container .description h4{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.container .description p{
+  display: flex;
+  text-align: left;
+  flex-shrink:1 ;
+  /* display: inline-flex; */
+  font-size: .7em;
+}
+
+.container .description a{
+  margin-top: auto;
+  color: orangered;
+}
+
+.container .description a:hover{
+  /* color: orange; */
+  color: rgb(4, 14, 105);
+
+}
+
+footer{
+  background-color: rgb(21, 139, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+footer p{
+  color: white;
+  text-align: justify;
+}
+@media screen and (min-width: 280px) and (max-width: 720px) {
   header {
     display: block;
   }
@@ -255,7 +412,6 @@ header div > a > em {
   }
   .menu-items .menu-icon {
     display: block;
-    /* float: right; */
   }
 
   /*
@@ -275,4 +431,48 @@ header div > a > em {
     margin-bottom: 5px;
     display: block;
   }
+  
+  header > div > a{
+    font-size: 1.5em;
+  }
+
+  .header-text h6 {
+    /* font-size: 2.7rem; */
+    margin-bottom: 1em;
+    font-size: .75em;
+    font-weight: bolder;
+  }
+
+  .header-text h2 {
+    font-size: 1.5em;
+  }
+
+  .member-link a{
+    font-size: .7em;
+  }
+  .container > p {
+    /* margin: 0% 1rem; */
+    padding: 0rem;
+  }
+
+  .content{
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+/* 721px até 964px */
+@media screen and (min-width: 721px) and (max-width: 964px) {
+  .header-text h6{
+    font-size: 1em;
+  }
+
+  .header-text h2{
+    font-size: 3em;
+  }
+
+  .member-link a{
+    font-size: .8em;
+  }
+
 }
