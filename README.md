@@ -1,24 +1,28 @@
-# Training-Gym
-This is a clone of this teplate https://templatemo.com/templates/templatemo_548_training_studio/
+# My Bodybuilding platform
+This is a project based on this template https://templatemo.com/templates/templatemo_548_training_studio/
 Here is my link to this project where you can see it and try it out: https://codepen.io/Matheus-Rodrigues-Araujo/pen/oNEepBw
 
 OBS: Project is almost completed
 
 # Screenshoots
  * For notebooks and desktops
-![New_main_page](https://user-images.githubusercontent.com/68081476/169901165-82094839-3cc5-497d-b9a0-2354db4f1012.png)
+![main-page](https://user-images.githubusercontent.com/68081476/170566768-acf7c119-dcbf-4029-a14b-d7aedeaa163a.png)
 
-![New_second](https://user-images.githubusercontent.com/68081476/169901216-40a8d65b-aed7-4d18-9614-1194bd15ad4f.png)
+![New_second](https://user-images.githubusercontent.com/68081476/170566791-79d7eb8b-eb87-4ee3-b16c-ca505dbe8825.png)
 
-![New_End_page](https://user-images.githubusercontent.com/68081476/169901303-99044fb7-5489-4f0b-a42b-d9578c42b2eb.png)
+![New_End_page](https://user-images.githubusercontent.com/68081476/170566839-63c897cf-b43f-4a6a-bf65-41fc36743c26.png)
+
+![FOOTER](https://user-images.githubusercontent.com/68081476/170566885-be9c3151-c9d1-42eb-b40d-81ae0f054608.png)
+
+
 
 
 * For smartphones and tablets
 
-![Responsive1](https://user-images.githubusercontent.com/68081476/169901474-585ff8aa-1002-4881-9535-6554e20e6e1a.png)
+![Responsive1](https://user-images.githubusercontent.com/68081476/170567003-03d2aec6-1804-4978-bd47-83c0ecc00392.png)
 
-![Responsive2](https://user-images.githubusercontent.com/68081476/169901496-1e65a77a-dcad-4f84-8018-21ca1cebd972.png)
+![Responsive2](https://user-images.githubusercontent.com/68081476/170567041-d848c0ca-0d22-4463-90ae-931a4eff9be7.png)
 
-![Responsive3](https://user-images.githubusercontent.com/68081476/169901515-500d9855-acda-4bc4-9e97-7a685923b2b4.png)
+![Responsive3](https://user-images.githubusercontent.com/68081476/170567058-e99e18c1-9c09-4213-936d-1f0cea7c40b8.png)
 
-![Responsive4](https://user-images.githubusercontent.com/68081476/169901537-ed401643-fe62-4bb7-8d5c-549ed56ea322.png)
+![Responsive4](https://user-images.githubusercontent.com/68081476/170567082-daefaec6-2886-4f85-b0b6-7578c0546c79.png)
