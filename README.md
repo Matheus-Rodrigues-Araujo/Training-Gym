@@ -6,23 +6,19 @@ OBS: Project is almost completed
 
 # Screenshoots
  * For notebooks and desktops
-![main-page](https://user-images.githubusercontent.com/68081476/170566768-acf7c119-dcbf-4029-a14b-d7aedeaa163a.png)
+![main-page](https://user-images.githubusercontent.com/68081476/170846843-1f5bdad3-6a82-4b32-afe0-432709252106.png)
 
-![New_second](https://user-images.githubusercontent.com/68081476/170566791-79d7eb8b-eb87-4ee3-b16c-ca505dbe8825.png)
+![New_second](https://user-images.githubusercontent.com/68081476/170846849-75a66490-b48d-4deb-becb-0a115fb0c2c0.png)
 
-![New_End_page](https://user-images.githubusercontent.com/68081476/170566839-63c897cf-b43f-4a6a-bf65-41fc36743c26.png)
-
-![FOOTER](https://user-images.githubusercontent.com/68081476/170566885-be9c3151-c9d1-42eb-b40d-81ae0f054608.png)
-
-
+![New_End_page](https://user-images.githubusercontent.com/68081476/170846853-14dcf765-fccb-4586-a188-8602ba584e45.png)
 
 
 * For smartphones and tablets
 
-![Responsive1](https://user-images.githubusercontent.com/68081476/170567003-03d2aec6-1804-4978-bd47-83c0ecc00392.png)
+![Responsive1](https://user-images.githubusercontent.com/68081476/170846878-7b6d4f9a-3a27-4d27-a45a-35f1901b7dd2.png)
 
-![Responsive2](https://user-images.githubusercontent.com/68081476/170567041-d848c0ca-0d22-4463-90ae-931a4eff9be7.png)
+![Responsive2](https://user-images.githubusercontent.com/68081476/170846883-b6d8332f-1426-41b4-ac30-c11d49da9be5.png)
 
-![Responsive3](https://user-images.githubusercontent.com/68081476/170567058-e99e18c1-9c09-4213-936d-1f0cea7c40b8.png)
+![Responsive3](https://user-images.githubusercontent.com/68081476/170846885-c5c3be71-b144-4875-a822-68d1c046eafa.png)
 
-![Responsive4](https://user-images.githubusercontent.com/68081476/170567082-daefaec6-2886-4f85-b0b6-7578c0546c79.png)
+![Responsive4](https://user-images.githubusercontent.com/68081476/170846890-471d0573-4892-4a0f-a8fd-eaa86d7cc43c.png)
