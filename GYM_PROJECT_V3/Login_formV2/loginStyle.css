@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@900&display=swap');
+
+:root{
+  font-family: Poppins, sans-serif;
+}
+
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background-color: rgba(27, 25, 25,.9); */
+  /* background-color: rgba(27, 25, 25,.9); */
+  /* background-image: linear-gradient(360deg,#000,rgba(27, 25, 25,.9)); */
+  background-color: #000;
+  /* background-image: linear-gradient(210deg, rgb(56, 32, 23), purple); */
+  /* background-image: linear-gradient(210deg, rgb(0, 0, 0), purple); */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100vh; */
+}
+
+section{
+  display: flex;
+  height: 100vh;
+  flex-flow: row wrap;
+}
+
+.overlay-container{
+  flex: 1;
+  display: inherit;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 3em;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: rgb(248, 81, 20);
+}
+
+.overlay-container > a{
+  font-size: 2em;
+  color: white;
+}
+.overlay-container > a > em{
+  padding: 0em .6em;
+  border: none;
+  border-radius: .2em;
+  background-color: purple;
+}
+
+.overlay-container h1{
+  font-size: 3em;
+  color: white;
+}
+
+.overlay-container p{
+  font-size: 3em;
+  text-align: center;
+}
+
+.overlay-container img{
+  filter: brightness(5);
+  transform:rotate(90deg);
+  /* fill:transparent; */
+  height: 75px;
+}
+
+form{
+  flex: 1;
+  gap: 1em;
+  /* height: 80vh; */
+  width: 80vh;
+  /* outline: purple 2px solid; */
+  /* border: 4px solid rgb(179, 10, 179); */
+  /* border: 4px solid orangered; */
+  /* border: 4px solid rgb(255, 39, 208); */
+  /* border: none; */
+  border-radius: 1em;
+  display: flex;
+  flex-flow: column wrap;
+  /* background-color: purple; */
+  align-items: center;
+  justify-content:flex-start;
+  gap: 1.5em;
+  /* color: rgb(235, 28, 235); */
+  /* color: rgb(255, 255, 255); */
+  color: orangered;
+  padding-bottom: 2em;
+  /* background-color:orangered; */
+}
+
+form > h2{
+  margin-top: 1em;
+}
+
+form div{
+  width: 70%;
+}
+
+input{
+  width: 100%;
+  padding: .8em;
+  border-radius: .5em;
+  outline-style: none;
+}
+
+input:focus{
+  /* background-color: aqua; */
+  outline: 2px solid lightseagreen;
+}
+
+button{
+  /* background-image: linear-gradient(180deg, rgb(114, 4, 114), rgb(187, 55, 192)); */
+  /* background-image: linear-gradient(180deg, orangered, rgba(231, 88, 22, 0.692)); */
+  background-color: orangered;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  width: 70%;
+  height: 3.2em;
+  border: none;
+  font-size: 1.2em;
+  border-radius: .3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(95, 13, 133);
+}
+i{
+  margin-right: 1em;
+}
+.twitter-btn{
+  background-image: linear-gradient(to right, rgb(28, 120, 224), #4c9393);
+  font-weight: 700;
+  gap: 0;
+  justify-content: center;
+}
+
+.twitter-btn:hover{
+  background-image: linear-gradient(to right, rgb(28, 120, 224), orangered);
+}
+
+.facebook-btn{
+  padding-left: 1em;
+  background-image: linear-gradient(to right, rgb(0, 84, 180), #51a3a3f1);
+}
+
+.facebook-btn:hover{
+  background-image: linear-gradient(to right, rgb(0, 84, 180),orangered);
+}
+
+@media screen and (min-width: 280px) and (max-width: 720px) {
+  section{
+    display: block;
+  }
+
+  .overlay-container{
+    display: flex;
+    width: 100%;
+  }
+
+  form{
+    display: flex;
+    /* height: 100vh; */
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    /* border: 1px solid purple; */
+    width: 100%;
+    /* margin: 1em auto 1em auto; */
+  }
+
+  .facebook-btn{
+    margin-bottom: 4em;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+.overlay-container h1{
+  font-size: 2.2em;
+}
+
+.overlay-container p{
+  font-size: 2.2em;
+  }
+}
