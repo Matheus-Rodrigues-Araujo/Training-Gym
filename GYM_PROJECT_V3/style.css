@@ -84,7 +84,7 @@ header .navigation ul li:last-child a {
 
 header .navigation ul li:last-child a:hover {
   /* color: rgb(225, 255, 57); */
-  background-color: rgba(255, 145, 0, 0.842);
+  background-color: rgb(240, 14, 14);
   color: rgb(255, 255, 255);
   border-radius: 0em 0.5em 0em 0.5em;
 }
@@ -144,22 +144,28 @@ header .navigation ul li a:hover {
 }
 
 .menu-items .menu-divs:hover div:first-child {
+  /* background-color: orangered; */
   background-color: orangered;
   /* transform: rotate(-30deg); */
-  transform: translateY(15px) rotate(30deg);
-  transition: ease-in 0.5s;
+  /* transform: translateY(15px) rotate(30deg); */
+  /* transform: translateY(8px) translateX(0px) rotate(80deg); */
+  width: 70%;
+  transition: ease-in .8s;
 }
 
 .menu-items .menu-divs:hover div:nth-child(2) {
-  opacity: 0;
-  transition: ease-in 0.2s;
+  /* opacity: 0; */
+  background-color: orangered;
+  width: 90%;
+  transition: ease-in .8s;
 }
 
 .menu-items .menu-divs:hover div:last-child {
-  background-color: rgb(255, 255, 255);
-  transform: rotate(150deg);
+  background-color: orangered;
+  /* transform: rotate(120deg); */
+  width: 95%;
   /* margin-bottom:3px; */
-  transition: ease-in 0.5s;
+  transition: ease-in .8s;
 }
 /* 
 .menu-items .menu-icon .menu-divs:hover {
@@ -172,6 +178,7 @@ header .navigation ul li a:hover {
   /* transform: rotate(-30deg); */
   transform: translateY(15px) rotate(36deg);
   transition: ease-in 0.5s;
+  width: 100%;
 }
 
 .close-menu .menu-divs div:nth-child(2) {
@@ -280,7 +287,7 @@ header .navigation ul li a:hover {
   background-image: radial-gradient(
     circle at right,
     orangered,
-    rgb(116, 235, 18)
+    rgb(131, 26, 145)
   );
 }
 .section {
@@ -440,6 +447,29 @@ footer p {
   header {
     display: block;
   }
+  .navigation .menu-items > a{
+    font-size: 1.6em;
+  }
+
+  .header-text{
+    padding-top: 3.5em;
+  }
+
+  .header-text h6 {
+    /* font-size: 2.7rem; */
+    margin-bottom: 1em;
+    font-size: .9em;
+    font-weight: bolder;
+  }
+
+  .header-text h2 {
+    font-size: 2.5em;
+    letter-spacing: .1em;
+  }
+
+  .member-link{
+    font-size: 1.2em;
+  }
 
   .menu-items {
     display: flex;
@@ -525,17 +555,6 @@ footer p {
   }
 
   .navigation > div > a {
-    font-size: 1.5em;
-  }
-
-  .header-text h6 {
-    /* font-size: 2.7rem; */
-    margin-bottom: 1em;
-    font-size: 0.75em;
-    font-weight: bolder;
-  }
-
-  .header-text h2 {
     font-size: 1.5em;
   }
 
