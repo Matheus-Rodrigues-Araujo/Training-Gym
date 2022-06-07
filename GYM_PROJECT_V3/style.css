@@ -377,6 +377,7 @@ header .navigation ul li a:hover {
   align-items: center;
   border-radius: 0.3em;
 }
+
 .course .content img {
   /* padding: 1px; */
   /* background-color: rgb(255, 255, 255); */
@@ -525,6 +526,7 @@ footer p {
     position: relative;
   }
 
+
   /* .show-menu ul li:hover::before, */
   .show-menu ul li:hover::after {
     position: absolute;
@@ -572,6 +574,7 @@ footer p {
     margin-left: 1em;
   }
 }
+
 
 /* 721px até 964px */
 @media screen and (min-width: 721px) and (max-width: 964px) {
