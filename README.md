@@ -1,8 +1,4 @@
 # My Bodybuilding platform
-This is a project based on this template https://templatemo.com/templates/templatemo_548_training_studio/
-Here is my link to this project where you can see it and try it out: https://codepen.io/Matheus-Rodrigues-Araujo/pen/oNEepBw
-
-OBS: Project is almost completed
 
 # Screenshoots
  * For notebooks and desktops
